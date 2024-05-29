@@ -13,7 +13,7 @@ public class App
           NO SOLO UNO, sino mas de uno. UN ARRAYS
           
          */
-    	
+    
     
     	
     	/* para acceder a los valores comienzan por 0.*/
@@ -41,17 +41,31 @@ public class App
     		
     		/*VARIANTE 1*/
     		
+    		
     		System.out.println(nombres [0]);
     		System.out.println(nombres[1]);
     		
+    		
     		/* VARIANTE 2*, con sistema de control de flujo que recorra el arrays- 
-    		 * lo vemo en la rama "sentencia del control de flujos"*/
+    		 * lo vemo en la rama "sentenciasDeControlDeFlujos"*/
+    		
+    	    		
+    		/*Con una sentencia FOR de toda la vida. y tambien con un FOR mejorado - for each- */
     		
     		
+    		for(int index =0; index<nombres.length;index++) 
+    			if (nombres [index].length()>4) {
+    				 System.out.println(nombres[index]);
+    			}	
+    		/* que diferencia hay entre utilizar 
+    		 * i++ autoincremento o ++i autodecremento- 
+    		 * si van solo en una sentencia entonces el resultado es el mismo, 
+    		 * pero si van con otras variables */
     		
+    		/* si quiero mostrar solo los elementos con indice par*/
+    		for(int index=0; index <numeros.length; index++)
+    		{if (index % 2 == 0)
+    			System.out.println("el elemento de indice" +index +", es par");}
     		
-    		
-				
-			}
     }
 }
