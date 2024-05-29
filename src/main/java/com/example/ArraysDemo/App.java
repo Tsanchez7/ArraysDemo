@@ -34,8 +34,24 @@ public class App
     	
     		int [] numeros = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16};
     		
-    		string [] nombres = {Tamara, Adrian, Carlos, Luis, Ivan, Maria Jose, Rosa};
+    		String [] nombres = {"Tamara", "Adrian", "Carlos", "Luis", "Ivan", "Maria Jose", "Rosa"};
     	
-    	
+    	/* Para motrar por consola los valores*/
+    		/*Utlizando una funcion pintln mostrar cada elemento del arrays*/
+    		
+    		/*VARIANTE 1*/
+    		
+    		System.out.println(nombres [0]);
+    		System.out.println(nombres[1]);
+    		
+    		/* VARIANTE 2*, con sistema de control de flujo que recorra el arrays- 
+    		 * lo vemo en la rama "sentencia del control de flujos"*/
+    		
+    		
+    		
+    		
+    		
+				
+			}
     }
 }
