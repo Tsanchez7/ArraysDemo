@@ -8,6 +8,24 @@ public class App
 {
     public static void main( String[] args )
     {
+    	
+    	/* MANEJO DE LOS ARGUMENTOS - que recibe el metodo main cuando se ejecuta, 
+    	 * porque la app cuando se ejecuta recibe como parametro una arrays de agumentos 
+    	 * de tipo string.
+    	 * Primero hay que comprobar que la app esta recibiendo los argumentos esperados.
+    	 * 
+    	 * */
+    	
+    	if (args.length == 0)
+    		{System.out.println("no se han recibido los argumentos esperados");}
+    	else if (args.length !=3)
+    		{System.out.println("no se han recibido 3 argumentos");}
+    	else {
+    		System.out.println("se han recibido los siguientes argumentos");
+    	for (String argumento:args)
+    		System.out.println(argumento);
+    	}
+    	
         /* COMO SE DECLARA UN ARRAYS- 
           int [] numeros; con los corchetes avisamos de que es un cojunto de valores enteros, 
           NO SOLO UNO, sino mas de uno. UN ARRAYS
